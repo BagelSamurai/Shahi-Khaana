@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link
+      rel="icon"
+      type="image/svg+xml"
+      href="/indian_food/butterChicken.jpg"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <title>Shahi khaana</title>
+    <link
+      href="https://api.fontshare.com/v2/css?f[]=satoshi@700,400&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <!-- START: header -->
+    <header>
+      <nav class="header__nav">
+        <div class="header__logo">
+          <!-- This how we use aos. Simply specify the type of animation using data attribute -->
+          <h4 data-aos="fade-down">Shahi khaana</h4>
+
+          <div class="header__logo-overlay"></div>
+        </div>
+
+        <ul class="header__menu" data-aos="fade-down">
+          <li>
+            <a href="#about-us">About Us</a>
+          </li>
+          <li>
+            <a href="#menu">Menu</a>
+          </li>
+          <li>
+            <a href="#food">Food</a>
+          </li>
+          <li>
+            <a href="#services">Services</a>
+          </li>
+
+          <li>
+            <img src="assets/search.svg" alt="search" />
+          </li>
+        </ul>
+
+        <!-- Display Menu icon on small devices -->
+        <ul class="header__menu-mobile" data-aos="fade-down">
+          <li>
+            <img src="assets/menu.svg" alt="search" />
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <!-- END: header -->
+
+    <!-- START: hero -->
+    <section class="hero">
+      <div class="hero-image">
+        <img
+          src="/indian_food/cholebhature.png"
+          alt="chole bhature"
+          data-aos="fade-up"
+          data-aos-anchor-placement="top-bottom"
+        />
+
+        <div class="hero-image__overlay"></div>
+      </div>
+      <div class="hero-content">
+        <div class="hero-content-info" data-aos="fade-left">
+          <h1>Feel the taste of Indian foods</h1>
+          <p>The aroma will make you fly. Literally.</p>
+
+          <div class="hero-content__buttons">
+            <button class="hero-content__order-button">Order Now</button>
+            <button class="hero-content__play-button">
+              <img src="assets/play-circle.svg" alt="play-circle" />
+              How to Order
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- END: hero -->
+
+    <!-- START: about us -->
+    <section class="about-us" id="about-us">
+      <div class="about-us__image">
+        <div class="about-us__image-food3">
+          <img
+            src="/indian_food/PalakPaneer.jpg"
+            alt="Palak Paneer"
+            data-aos="fade-right"
+          />
+        </div>
+
+        <button class="about-us__button">
+          Learn More
+
+          <img src="assets/arrow-up-right.svg" alt="arrow_up_right" />
+        </button>
+
+        <div class="about-us__image-food2">
+          <img src="/indian_food/dosa.jpg" alt="Dosa" data-aos="fade-right" />
+        </div>
+      </div>
+
+      <div class="about-us__content" data-aos="fade-left">
+        <p class="food__subtitle">About Us</p>
+        <h3 class="food__title">
+          Our mission is to bring the best flavours to you.
+        </h3>
+        <p class="food__description">
+          Indulge your senses in a tantalizing journey through the vibrant and
+          aromatic world of Indian cuisine.
+        </p>
+      </div>
+    </section>
+    <!-- END: about us -->
+
+    <!-- START: popular foods -->
+    <section class="popular-foods" id="menu">
+      <h2 class="popular-foods__title" data-aos="flip-up">Popular Food</h2>
+
+      <div
+        class="popular-foods__filters food__hide-scrollbar"
+        data-aos="fade-up"
+      >
+        <button class="popular-foods__filter-btn active">All</button>
+        <button class="popular-foods__filter-btn">
+          <img
+            src="/indian_food/dal-tadka-thick-soup-lentil-600nw-1992890396.webp"
+            alt="Dal"
+          />
+          Tadka Dal
+        </button>
+        <button class="popular-foods__filter-btn">
+          <img src="/indian_food/samosa.png" alt="Samosa" />
+          Samosa
+        </button>
+        <button class="popular-foods__filter-btn">
+          <img src="/indian_food/garlicNaan.jpg" alt="Garlic Naan" />
+          Garlic Naan
+        </button>
+        <button class="popular-foods__filter-btn">
+          <img src="/indian_food/chowmein.jpg" alt="Chowmein" />
+          Chowmein
+        </button>
+        <button class="popular-foods__filter-btn">Others</button>
+      </div>
+
+      <div class="popular-foods__catalogue" data-aos="fade-up">
+        <article class="popular-foods__card">
+          <img
+            class="popular-foods__card-image"
+            src="/indian_food/choleBhature2.jpg"
+            alt="Chole Bhature
+            "
+          />
+          <h4 class="popular-foods__card-title">Chole Bhature</h4>
+
+          <div class="popular-foods__card-details flex-between">
+            <div class="popular-foods__card-rating">
+              <img src="assets/star.svg" alt="star" />
+              <p>4.8</p>
+            </div>
+
+            <p class="popular-foods__card-price">$21.00</p>
+          </div>
+        </article>
+
+        <!-- active big white card -->
+        <article class="popular-foods__card active-card">
+          <img
+            class="popular-foods__card-image"
+            src="/indian_food/shahiPaneer.jpg"
+            alt="Shahi Paneer"
+          />
+          <h4 class="popular-foods__card-title">Shahi Paneer</h4>
+
+          <div class="popular-foods__card-details flex-between">
+            <div class="popular-foods__card-rating">
+              <img src="assets/star.svg" alt="star" />
+              <p>4.8</p>
+            </div>
+
+            <p class="popular-foods__card-price">$21.00</p>
+          </div>
+        </article>
+
+        <article class="popular-foods__card">
+          <img
+            class="popular-foods__card-image"
+            src="/indian_food/rocketDosa.jpg"
+            alt="Rocket Dosa"
+          />
+          <h4 class="popular-foods__card-title">Rocket Dosa</h4>
+
+          <div class="popular-foods__card-details flex-between">
+            <div class="popular-foods__card-rating">
+              <img src="assets/star.svg" alt="star" />
+              <p>4.8</p>
+            </div>
+
+            <p class="popular-foods__card-price">$21.00</p>
+          </div>
+        </article>
+      </div>
+
+      <button class="popular-foods__button">
+        Explore Food
+        <img src="assets/arrow-right.svg" alt="arrow-right" />
+      </button>
+    </section>
+    <!-- END: popular foods -->
+
+    <section class="trending" id="food">
+      <!-- START: -->
+      <section class="trending-food">
+        <div class="trending__content" data-aos="fade-right">
+          <p class="food__subtitle">What’s Trending</p>
+
+          <h3 class="food__title">Snacks</h3>
+          <p class="food__description">Some appetizers to get rolling</p>
+
+          <ul class="trending__list flex-between">
+            <li>
+              <div class="trending__icon flex-center">
+                <img src="assets/check.svg" alt="check" />
+              </div>
+              <p>Paneer Tikka</p>
+            </li>
+            <li>
+              <div class="trending__icon flex-center">
+                <img src="assets/check.svg" alt="check" />
+              </div>
+              <p>Idli Sambar</p>
+            </li>
+            <li>
+              <div class="trending__icon flex-center">
+                <img src="assets/check.svg" alt="check" />
+              </div>
+              <p>Gobi Manchurian</p>
+            </li>
+            <li>
+              <div class="trending__icon flex-center">
+                <img src="assets/check.svg" alt="check" />
+              </div>
+              <p>Dahi Papdi Chaat</p>
+            </li>
+            <li>
+              <div class="trending__icon flex-center">
+                <img src="assets/check.svg" alt="check" />
+              </div>
+              <p>Bhel Puri</p>
+            </li>
+            <li>
+              <div class="trending__icon flex-center">
+                <img src="assets/check.svg" alt="check" />
+              </div>
+              <p>Samosa Chaat</p>
+            </li>
+          </ul>
+        </div>
+
+        <div class="trending__image flex-center">
+          <img
+            src="/indian_food/paneerTikka.jpg"
+            alt="paneerTikka"
+            data-aos="fade-left"
+          />
+
+          <div class="trending__arrow trending__arrow-left">
+            <img src="assets/arrow-vertical.svg" alt="arrow-vertical" />
+          </div>
+
+          <div class="trending__arrow trending__arrow-bottom">
+            <img src="assets/arrow-horizontal.svg" alt="arrow-horizontal" />
+          </div>
+        </div>
+      </section>
+      <!-- END: trending food -->
+
+      <!-- START: discover button -->
+      <div class="trending__discover" data-aos="zoom-in">
+        <p>Discover</p>
+      </div>
+      <!-- END: discover button -->
+
+      <!-- START: trending drinks -->
+      <section class="trending-drink">
+        <div class="trending__image flex-center">
+          <img
+            src="/indian_food/lassidrinks.jpg"
+            alt="Lassi"
+            data-aos="fade-right"
+          />
+
+          <div class="trending__arrow trending__arrow-top">
+            <img src="assets/arrow-horizontal.svg" alt="arrow-horizontal" />
+          </div>
+
+          <div class="trending__arrow trending__arrow-right">
+            <img src="assets/arrow-vertical.svg" alt="arrow-vertical" />
+          </div>
+        </div>
+
+        <div class="trending__content" data-aos="fade-left">
+          <p class="food__subtitle">What’s Trending</p>
+
+          <h3 class="food__title">Drinks</h3>
+          <p class="food__description">
+            Feel the taste of most delicious drinks here.
+          </p>
+
+          <ul class="trending__list flex-between">
+            <li>
+              <div class="trending__icon flex-center">
+                <img src="assets/check.svg" alt="check" />
+              </div>
+              <p>Mango Lassi</p>
+            </li>
+            <li>
+              <div class="trending__icon flex-center">
+                <img src="assets/check.svg" alt="check" />
+              </div>
+              <p>Strawberry Coconut Lassi</p>
+            </li>
+            <li>
+              <div class="trending__icon flex-center">
+                <img src="assets/check.svg" alt="check" />
+              </div>
+              <p>Masala Chaas</p>
+            </li>
+            <li>
+              <div class="trending__icon flex-center">
+                <img src="assets/check.svg" alt="check" />
+              </div>
+              <p>Nimbu Pani</p>
+            </li>
+            <li>
+              <div class="trending__icon flex-center">
+                <img src="assets/check.svg" alt="check" />
+              </div>
+              <p>Jaljeera</p>
+            </li>
+            <li>
+              <div class="trending__icon flex-center">
+                <img src="assets/check.svg" alt="check" />
+              </div>
+              <p>Chai</p>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <!-- END: trending drinks -->
+    </section>
+
+    <!-- START: subscribe -->
+    <section class="subscription flex-center" id="services">
+      <h2 data-aos="flip-down">
+        Get offers straight <br />
+        to your inbox
+      </h2>
+      <p data-aos="fade-up">Sign up for the Shahi Khaana newsletter</p>
+
+      <div class="subscription__form" data-aos="fade-up">
+        <input type="text" placeholder="Enter email address" />
+        <button>Get Started</button>
+      </div>
+    </section>
+    <!-- END: subscribe -->
+
+    <!-- START: footer -->
+    <footer class="footer flex-between">
+      <h3 class="footer__logo"><span>Shahi</span>Khaana</h3>
+
+      <ul class="footer__nav">
+        <li>
+          <a href="#menu">Menu</a>
+        </li>
+        <li>
+          <a href="#food">Food</a>
+        </li>
+        <li>
+          <a href="#services">Services</a>
+        </li>
+        <li>
+          <a href="#about-us">About us</a>
+        </li>
+      </ul>
+
+      <ul class="footer__social">
+        <li class="flex-center">
+          <img src="assets/facebook.svg" alt="facebook" />
+        </li>
+        <li class="flex-center">
+          <img src="assets/twitter.svg" alt="twitter" />
+        </li>
+        <li class="flex-center">
+          <img src="assets/instagram.svg" alt="instagram" />
+        </li>
+      </ul>
+    </footer>
+    <!-- END: footer -->
+
+    <!-- Type module is necessary in order to use ECMAScript module (import/export) -->
+    <script src="js/script.js" type="module"></script>
+  </body>
+</html>
